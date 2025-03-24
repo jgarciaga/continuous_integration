@@ -3,9 +3,6 @@
 # Default owners for everything in the repo
 * @default-owner
 
-# Owners for frontend code
-CI_README.md reallyclean-sauce jgarciaga
-
 # Multiple owners for specific files
-*.md @reallyclean-sauce @jgarciaga
+*.md @jgarciaga @reallycleansauce
 
