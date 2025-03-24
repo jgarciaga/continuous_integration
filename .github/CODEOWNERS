@@ -7,5 +7,5 @@
 CI_README.md reallyclean-sauce jgarciaga
 
 # Multiple owners for specific files
-*.md reallyclean-sauce jgarciaga
+*.md @reallyclean-sauce @jgarciaga
 
