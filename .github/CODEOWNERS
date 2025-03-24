@@ -1,8 +1,10 @@
 # Test CODEOWNERS file
 
-# Default owners for everything in the repo
-* @default-owner
-
 # Multiple owners for specific files
-*.md @jgarciaga @reallycleansauce
+*.md @reallyclean-sauce @reallycleansauce
+
+# Default owners for everything in the repo
+* @jgarciaga
+
+
 
