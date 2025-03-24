@@ -10,8 +10,7 @@ on:
       - labeled
       - unlabeled
       - edited
-  pull_request_review:
-    types: [submitted]
+      - submitted
 
 jobs:
   check-codeowner-approvals:

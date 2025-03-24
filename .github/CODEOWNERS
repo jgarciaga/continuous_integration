@@ -1,10 +1,8 @@
-# Test CODEOWNERS file
+# Default owners for everything in the repo
+* @jerico-rcs
 
 # Multiple owners for specific files
 *.md @reallyclean-sauce @reallycleansauce
-
-# Default owners for everything in the repo
-* @reallyclean-sauce @reallycleansauce
 
 
 
