@@ -2,7 +2,14 @@ name: Code Owner Approval Check
 
 on:
   pull_request:
-    types: [opened, synchronize, reopened, ready_for_review]
+    types:
+      - opened
+      - synchronize
+      - reopened
+      - ready_for_review
+      - labeled
+      - unlabeled
+      - edited
   pull_request_review:
     types: [submitted]
 
