@@ -9,7 +9,7 @@ on:
 
 jobs:
   check-code-owner-approvals:
-    uses: jgarciaga/shared-ci-steps/.github/workflows/enforce-codeowner-approvals.yml@v2.0.0
+    uses: jgarciaga/shared-ci-steps/.github/workflows/enforce-codeowner-approvals.yml@master
     secrets:
       token: ${{ secrets.REUSABLE_WORKFLOW_TOKEN }}
     with:
