@@ -9,6 +9,8 @@ on:
 
 jobs:
   check-code-owner-approvals:
-    uses: jgarciaga/shared-ci-steps/.github/workflows/enforce-codeowner-approvals.yml@v1.3.3
+    uses: jgarciaga/shared-ci-steps/.github/workflows/enforce-codeowner-approvals.yml@v2.0.0
+    secrets:
+      token: ${{ secrets.REUSABLE_WORKFLOW_TOKEN }}
     with:
       files_with_enforced_approvals: "Test.md,"
