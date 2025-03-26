@@ -8,8 +8,6 @@ on:
 
 jobs:
   check-code-owner-approvals:
-    uses: jgarciaga/shared-ci-steps/.github/workflows/enforce-codeowner-approvals.yml@feature/TEST-0010-Better-Debug
+    uses: jgarciaga/shared-ci-steps/.github/workflows/enforce-codeowner-approvals.yml@v1.3.2
     with:
-      codeowners_path: ".github/CODEOWNERS"  # Optional, default is .github/CODEOWNERS
-      require_all_owners: true              # Optional, default is true
       files_with_enforced_approvals: "Test.md,"
