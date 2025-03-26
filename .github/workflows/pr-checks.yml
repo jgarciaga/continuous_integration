@@ -1,10 +1,11 @@
 name: Pull Request Checks
 
 on:
-  pull_request:
-    types: [opened, synchronize, reopened, ready_for_review]
   pull_request_review:
-    types: [submitted]
+    types:
+      - submitted
+      - edited
+      - dismissed
 
 jobs:
   check-code-owner-approvals:
