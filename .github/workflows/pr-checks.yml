@@ -1,0 +1,15 @@
+name: Pull Request Checks
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+  pull_request_review:
+    types: [submitted]
+
+jobs:
+  check-code-owner-approvals:
+    uses: jgarciaga/shared-ci-steps/github_workflows/enforce-codeowner-approvals.yml@v1.1.0
+    with:
+      codeowners_path: ".github/CODEOWNERS"  # Optional, default is .github/CODEOWNERS
+      require_all_owners: true              # Optional, default is true
+      files_with_enforced_approvals: "Test.md,"
