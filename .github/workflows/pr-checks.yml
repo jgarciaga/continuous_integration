@@ -8,7 +8,7 @@ on:
 
 jobs:
   check-code-owner-approvals:
-    uses: jgarciaga/shared-ci-steps/github_workflows/enforce-codeowner-approvals.yml@v1.1.0
+    uses: jgarciaga/shared-ci-steps/.github/workflows/labels.yml@v1.1.0
     with:
       codeowners_path: ".github/CODEOWNERS"  # Optional, default is .github/CODEOWNERS
       require_all_owners: true              # Optional, default is true
