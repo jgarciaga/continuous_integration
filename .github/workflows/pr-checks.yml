@@ -8,6 +8,6 @@ on:
 
 jobs:
   check-code-owner-approvals:
-    uses: jgarciaga/shared-ci-steps/.github/workflows/enforce-codeowner-approvals.yml@v1.3.2
+    uses: jgarciaga/shared-ci-steps/.github/workflows/enforce-codeowner-approvals.yml@feature/TEST-0011-Patch-owner_name
     with:
       files_with_enforced_approvals: "Test.md,"
